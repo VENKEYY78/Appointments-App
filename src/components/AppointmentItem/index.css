@@ -1,0 +1,36 @@
+.list-container {
+  height: 100px;
+  width: 250px;
+  border: 1px solid #b5b7c4;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 0px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.stat-button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.star {
+  height: 18px;
+}
+
+.date-format {
+  font-family: 'Roboto';
+  font-size: 12px;
+}

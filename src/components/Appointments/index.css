@@ -1,0 +1,120 @@
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+  padding: 30px;
+  width: 100vw;
+}
+
+.appointment-container {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.top-left-container {
+  padding: 10px;
+}
+
+.heading {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.input-form-container {
+  padding-left: 20px;
+}
+
+.label-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding-bottom: 5px;
+  color: #b5b7c4;
+}
+
+.title-input {
+  height: 30px;
+  font-size: 15px;
+  color: #171f46;
+  cursor: pointer;
+  outline: none;
+}
+
+.add-button {
+  height: 30px;
+  width: 50px;
+  background-color: #8b5cf6;
+  font-size: 15px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border: 0px solid #8b5cf6;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.h-r {
+  height: 1px;
+  border-color: #171f46;
+  padding-left: 10px;
+}
+
+.appointments-Starred-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-heading {
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.btn-starred {
+  height: 20px;
+  width: 70px;
+  font-family: 'Roboto';
+  font-size: 11px;
+  background-color: transparent;
+  color: #9897f0;
+  font-weight: 100px;
+  border: 1px solid #9897f0;
+  border-radius: 30px;
+}
+
+.filtered {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border: 0px solid #8b5cf6;
+}
+
+.appointsments-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
